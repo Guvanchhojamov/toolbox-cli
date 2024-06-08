@@ -26,4 +26,6 @@ func Execute() {
 func init() {
 	InfoCmd.Flags().BoolP("help", "h", true, "show help")
 	InfoCmd.AddCommand(systemCmd)
+	fmt.Println("this line printed from NeoVim editor.")
 }
+
